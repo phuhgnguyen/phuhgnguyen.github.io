@@ -21,3 +21,20 @@ h1 {
     margin-right: auto;
     text-align: center;
   }
+
+.bullet {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: large;
+}
+
+.sub-left {
+  text-align: center;
+  font-size: medium;
+}
+
+.sub-right {
+  margin-right: 80px;
+  font-size: medium;
+}
