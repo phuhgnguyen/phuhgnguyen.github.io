@@ -6,31 +6,8 @@ body {
 }
 
 h1 {
-  color: maroon;
-  animation-duration: 2s;
-  animation-name: slidein;
+    color: maroon;
 }
-
-h2 {
-  animation-duration: 2.5s;
-  animation-name: slidein;
-}
-
-p {
-  animation-duration: 3s;
-  animation-name: slidein;
-}
-
-@keyframes slidein {
-  from {
-    margin-left: -300%;
-  }
-
-  to {
-    margin-left: 0%;
-  }
-}
-
 
 .center {
     display: block;
