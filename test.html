@@ -2,57 +2,115 @@
 <html>
 
 <head>
-  <meta charset="utf-8">
-  <link rel="stylesheet" href="test.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
-    crossorigin="anonymous"></script>
-  <title>Phu Nguyen's Personal Website</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="aboutstyles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+    <title>Phu Nguyen</title>
 </head>
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Howdy!</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="experience.html">Experience</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="images.html">Images</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://github.com/phuhgnguyen">Github</a>
-        </li>
-      </ul>
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Howdy!</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="experience.html">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="images.html">Images</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+            </ul>
+        </div>
     </div>
-  </div>
 </nav>
 
-<div class="hero-image">  
-    <div class="hero-pfp"> <img src="images/profile-picture.jpg" class="rounded-circle" alt="My profile picture" width="215" height="215">
+<body>
+    <div>
+        <h1 class="center">Experience</h1>
     </div>
-    <div class="h1-hero-text">
-        <h1 style="font-size: 300%" class="center">
-          Phu "Jack" Nguyen
-        </h1>
-      </div>
-      <div class="h2-hero-text">
-        <h2 style="font-size: 200%" class="center"> 
-          TAMU Computer Science '23 <br>
-          Aspiring Software Engineer <br> 
-        </h2>
-      </div>
-</div>
+    
+    <p class="center">In
+            <a href="experience/resume.pdf" title="This will take you to my resume">PDF</a>
+            Format
+    </p>
+    
+    <h2 class="center">
+        <a class="btn btn-primary bg-light text-dark border-0" data-bs-toggle="collapse" href="#collapseExample"
+            role="button" aria-expanded="false" aria-controls="collapseExample">
+            Education
+        </a>
+    </h2>
+    <div class="collapse" id="collapseExample">
+        <div class="card card-body">
+            <p class="center">
+                Pursuing a B.S in Computer Science <br>
+                Texas A&M University, College Station, Texas <br>
+            </p>
+        </div>
+    </div>
+    <h3 class="center">
+        <a class="btn btn-primary bg-light text-dark border-0" data-bs-toggle="collapse" href="#collapseExample1"
+            role="button" aria-expanded="false" aria-controls="collapseExample1">
+            Relevant Coursework
+        </a>
+    </h3>
+    <div class="collapse" id="collapseExample1">
+        <div class="card card-body">
+            <p class="center">
+                CSCE 221: Data Structures and Algorithms <br>
+                CSCE 312: Computer Organization <br>
+                CSCE 222: Discrete Mathematics and Its Applications <br>
+                CSCE 121: Program Design and Concepts (C++) <br>
+                ECEN 214: Electrical Circuit Theory <br>
+                ECEN 248: Digital Systems Design (Basic Circuit Design and Verilog) <br>
+                ENGR 102: Engineering Lab Computation (Python) <br>
+            </p>
+        </div>
+    </div>
+    <h4 class="center">
+        <a class="btn btn-primary bg-light text-dark border-0" data-bs-toggle="collapse" href="#collapseExample2"
+            role="button" aria-expanded="false" aria-controls="collapseExample2">
+            Skills
+        </a>
+    </h4>
+    <div class="collapse" id="collapseExample2">
+        <div class="card card-body">
+            <p class="center">
+                Proficient: C++ <br>
+                Familiar: Python, Git, HTML, CSS <br>
+                Exposure: Verilog, JavaScript <br>
+            </p>
 
+        </div>
+    </div>
+    <h5 class="center">
+        <a class="btn btn-primary bg-light text-dark border-0" data-bs-toggle="collapse" href="#collapseExample3"
+            role="button" aria-expanded="false" aria-controls="collapseExample3">
+            Activities
+        </a>
+    </h5>
+    <div class="collapse" id="collapseExample3">
+        <div class="card card-body">
+            <p class="center">
+                Personal project: This website :) <br>
+            </p>
+        </div>
+    </div>
+    
+</body>
 
 </html>

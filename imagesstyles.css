@@ -1,30 +1,32 @@
+html {
+    background-color: #fcc6c1;
+}
+
 body {
-    background-color: transparent;
+    background-color: #fcc6c1;
     width: 100%;
     height: 100%;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-h1 {
-background-color: transparent;
-color: maroon;
-animation-duration: 2s;
-animation-name: slidein;
+@keyframes fadein {
+    0% { opacity: 0; }
+    50% { opacity: 0; }
+    80% { opacity: 1; }
+    100%   { opacity: 1; }
+  }
+
+p1 {
+    color: maroon;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation-duration: 2s;
+    animation-name: fadein;
 }
 
-h2 {
-background-color: transparent;
-color: white;
-animation-duration: 2.5s;
-animation-name: slidein;
-}
-
-p {
-background-color: transparent;
-animation-duration: 3s;
-animation-name: slidein;
-}
-
+/* 
 @keyframes slidein {
 from {
     margin-left: -300%;
@@ -33,7 +35,7 @@ from {
 to {
     margin-left: 0%;
 }
-}
+} */
 
 .center {
     display: block;
